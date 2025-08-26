@@ -1,0 +1,19 @@
+body {
+    background-color: bisque;   /* Define a cor de fundo da página (tom bege claro) */
+    font-family: Arial, Helvetica, sans-serif;  /* Define a fonte do texto em toda a página */
+}
+
+footer {
+    background-color: rgb(155, 22, 144);    /* Define a cor de fundo do rodapé como preto */
+    color: white;               /* Define a cor do texto dentro do rodapé como branco */
+    position: fixed;            /* Mantém o rodapé fixo na tela, mesmo com rolagem.  Pode escolher entre fixed, sticky e outras opções                                                        depende do seu objetivo: se o elemento precisa ficar sempre visível, use fixed. Se ele precisa colar apenas                                                      dentro de uma área específica, use sticky. Para posicionar elementos dentro de um pai, use absolute. */
+    bottom: 0;                  /* Posiciona o rodapé na parte inferior da tela */
+    width: 100%;                /* Faz o rodapé ocupar toda a largura da tela */
+    height: 2rem;               /* Define a altura do rodapé (2 vezes o tamanho da fonte padrão) */
+}
+
+footer p {
+    text-align: center;         /* Centraliza o texto dentro do rodapé */
+    font-size: 0.6rem;          /* Define o tamanho da fonte como pequeno (60% do padrão) */
+    margin-top: 0.5rem;         /* Cria um pequeno espaço acima do texto para afastar do topo */
+}
